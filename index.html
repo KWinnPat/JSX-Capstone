@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randomizer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="window-container">
+      <div class="sidebar-container">
+        <div class="sidebar-header">
+          <h2 class="sidebar-title">Name: Weight</h2>
+        </div>
+        <div class="sidebar-content">
+          <ul class="names-list"></ul>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="main-header">
+          <h1 class="main-title">Feeling Lucky?</h1>
+        </div>
+        <div class="randomizer-animation">
+          <h2 class="randomizer-text"></h2>
+        </div>
+        <div class="randomizer-button">
+          <button class="randomizer-button">Randomize</button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/data.js"></script>
+    <script type="module" src="./scripts/randomizer.js"></script>
+    <script type="module" src="./scripts/animation.js"></script>
+  </body>
+</html>
